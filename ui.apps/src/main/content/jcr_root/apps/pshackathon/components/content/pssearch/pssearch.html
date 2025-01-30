@@ -1,0 +1,9 @@
+<sly data-sly-include="/libs/wcm/core/components/init/init.jsp"/>
+
+<h3>Search API Component</h3>
+
+<sly data-sly-use.model="com.adobe.aem.guides.aspire.core.models.PSSearchModel">
+	<p><strong>Response Code:</strong> ${model.responseCode}</p>
+    <p><strong>Search Response:</strong></p>
+    <pre>${model.response}</pre>
+</sly>
