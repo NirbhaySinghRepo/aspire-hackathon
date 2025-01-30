@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/aspire",
+        "create path (nt:unstructured) /content/dam/aspire/jcr:content",
+        "set properties on /content/dam/aspire/jcr:content\n  set cq:conf{String} to /conf/aspire\n  set jcr:title{String} to \"Aspire Hackathon Project\"\nend"
+    ]
+}

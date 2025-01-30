@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aspire" mode="merge"/>
+    <filter root="/content/aspire" mode="merge"/>
+    <filter root="/content/dam/aspire/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aspire" mode="merge"/>
+</workspaceFilter>
